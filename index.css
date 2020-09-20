@@ -1,0 +1,29 @@
+img{
+	float: right;
+	border:1px solid black;
+	border-radius: 4px;
+	margin-right: 5px; 
+}
+body{
+	background: #666666;
+	background: -moz-linear-gradient(top, orange 0%, yellow 100%);
+	background: -webkit-linear-gradient(orange 0%, yellow 100%);
+	background: -o-linear-gradient(orange 0%, yellow 100%);
+	background: linear-gradient(orange 0%, yellow 100%); 
+}
+header{
+	text-align: center;
+	background-size: wrap-content;
+}
+h2{
+	background-color: white;
+}
+table,tr,th,td{
+	border-spacing: 10%;
+	padding:17px;
+	border: solid 2px;
+	border-collapse: collapse;
+}
+.back{
+	background-clip: border-box;
+}
